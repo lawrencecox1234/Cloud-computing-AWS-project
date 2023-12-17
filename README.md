@@ -14,7 +14,7 @@ Edit the "commands2.py" Python file so that it has the new instance public DNS w
 
 Run "python3 commands2.py" on the terminal and enter "yes".
 
-Run the "ssh -i "KeyPair6.pem" ubuntu@<DNS link>)" on the terminal with the specific DNS link
+Run the "ssh -i "KeyPair6.pem" ubuntu@(DNS link))" on the terminal with the specific DNS link
 
 Run "sudo python3 commands3.py" on the terminal.
 
