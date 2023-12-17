@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<div id="up">
+<h1>Please specify your values below:<br/></h1>
+<p>For "Choice of service:" please either enter "LAMBDA" for AWS Lambda or "EC2" for EC2 instances</p>
+<p>If your currently on the Google App Engine page please don't run EC2 since this will cause an error and may affect the performance of the Google App Engine page in future</p>
+<p>When running this site locally for "EC2" please remember to follow the steps stated in the "User Requirements" file. The steps are also mentioned in the code comments within the "index.py" file</p>
+<p>These steps require you to make small changes to the "commands2.py" file and then to run four commands on a seperate terminal</p>
+</div>
+
+<div id="down">
+
+<form id="stats" method="post" action="/random">
+
+<h4>Choice of service: <input type="text" name="choice" /><br/></h4>
+<h4>Number of shots: <input type="text" name="shots" /><br/></h4>
+<h4>Reporting rate: <input type="text" name="q_value" /><br/></h4>
+<h4>Number of resources: <input type="text" name="runs" /><br/></h4>
+<h4>D value: <input type="text" name="d_value" /><br/></h4>
+<h4><input type="submit" name="draw" value="Submit" />
+                                                             
+</form>
+
+</div>
+
+</html>
+
+
+
