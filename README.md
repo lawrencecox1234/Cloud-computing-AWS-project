@@ -1,4 +1,4 @@
-# Cloud-computing-AWS-project (2021)
+# Cloud computing project - AWS and Python (2021)
 
 * This application determines the cost of using AWS services to estimate the value of Pi - accurate to a specifiable number of digits using the Monte Carlo method.
 * We achieve this using a website hosted using Google App Engine
